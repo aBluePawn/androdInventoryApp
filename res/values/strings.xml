@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Inventory</string>
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_book">Add a Book</string>
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_book">Edit Book</string>
+
+    <!-- Label for editor menu option to save book and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current book [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for editor overflow menu option that orders the current book [CHAR LIMIT=20] -->
+    <string name="action_order">Order</string>
+
+    <!-- Label for overflow menu option that inserts fake book data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current book was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_successful">Book deleted</string>
+
+    <!-- Toast message in editor when current book has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current book [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current book [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Text hint for title field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_title">Title</string>
+
+    <!-- Text hint for author field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_author">Author</string>
+
+    <!-- Text hint for author field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_price">Price</string>
+
+    <!-- Text hint for year published field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_year_published">Year published</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_quantity">Quantity</string>
+
+    <!-- Text hint for image name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_image_name">Input the name \nfor the image saved \non internal app storage</string>
+
+    <!-- Text hint for number of pages field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_pages"># of pages</string>
+
+    <!-- Text hint for modifying the quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_modify_by">Increase/decrease quantity by</string>
+
+    <!-- Title text for the empty view [CHAR LIMIT=50] -->
+    <string name="empty_database_message">No book in the database. Add some books!</string>
+
+    <!-- Label to be displayed in the list view -->
+    <string name="pages">pages</string>
+
+    <!-- Toast message in editor when new book has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_successful">Book saved</string>
+
+    <!-- Toast message in editor when new book has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_failed">Error with saving book</string>
+
+    <!-- Toast message in editor when current book was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_book_successful">Book updated</string>
+
+    <!-- Toast message in editor when current book has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_book_failed">Error with updating book</string>
+
+    <!-- Toast message in editor for title required [CHAR LIMIT=NONE] -->
+    <string name="editor_title_required">Title is required</string>
+
+    <!-- Toast message in editor for author required [CHAR LIMIT=NONE] -->
+    <string name="editor_author_required">Author is required</string>
+
+    <!-- Toast message in editor for year of publication required [CHAR LIMIT=NONE] -->
+    <string name="editor_year_required">Year of publication is required</string>
+
+    <!-- Toast message in editor for number of pages required [CHAR LIMIT=NONE] -->
+    <string name="editor_pages_required">Number of pages is required</string>
+
+    <!-- Toast message in editor for quantity set to negative value [CHAR LIMIT=NONE] -->
+    <string name="editor_negative_quantity">Quantity can be set to 0 or to a positive number</string>
+
+    <!-- Label in editor for the currency field  [CHAR LIMIT=20] -->
+    <string name="currency">Dollars</string>
+
+    <!-- Toast message for quantity Out of stock [CHAR LIMIT=NONE] -->
+    <string name="out_of_stock_quantity">Out of stock</string>
+
+    <!-- Label for title field -->
+    <string name="book_title">Title</string>
+
+    <!-- Label for author field -->
+    <string name="book_author">Author</string>
+
+    <!-- Label for quantity field -->
+    <string name="quantity">Quantity</string>
+
+    <!-- Label that describes the quantity field -->
+    <string name="available">available</string>
+
+    <!-- Label for price field -->
+    <string name="book_price">Price:</string>
+
+    <!-- Label for sale button -->
+    <string name="sale_button">Sale</string>
+
+    <!-- Label for year published field -->
+    <string name="year_published">Year</string>
+
+    <!-- Label for number of pages field -->
+    <string name="number_of_pages"># of pages</string>
+
+    <!-- Label for decrease quantity button -->
+    <string name="decrease_button">-</string>
+
+    <!-- Label for increase quantity button -->
+    <string name="increase_button">+</string>
+
+    <!-- Label for image field -->
+    <string name="image">Image</string>
+
+    <!--message to be used as subject for the email intent when ordering more books -->
+    <string name="email_adress_supplier">book.suplier@gmail.com</string>
+
+
+    <!--message to be used as subject for the email intent when ordering more books -->
+    <string name="email_subject">Order for books</string>
+
+    <!--message to be used as text for the email intent when ordering more books -->
+    <string name="email_text">I will like to order the following book:</string>
+
+
+
+</resources>

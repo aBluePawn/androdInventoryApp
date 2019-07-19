@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dune_cover">dune_cover </string>
+    <string name="google_logo">google_logo</string>
+    <string name="android_dev">android_dev</string>
+    <string name="no_image_available">no_image_available</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These are the options displayed in the book cover image drop-down Spinner -->
+    <string-array name="array_image_options">
+        <item>@string/no_image_available</item>
+        <item>@string/dune_cover</item>
+        <item>@string/google_logo</item>
+        <item>@string/android_dev</item>
+
+    </string-array>
+</resources>
